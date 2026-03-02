@@ -75,4 +75,3 @@ class Solution:
             expand(i, i + 1)  # even-length palindrome (e.g. "abba")
 
         return res
-        
