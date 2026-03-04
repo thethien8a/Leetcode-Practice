@@ -1,0 +1,1 @@
+Các challenge python trong này chỉ thuộc level medium trở lên, không có easy

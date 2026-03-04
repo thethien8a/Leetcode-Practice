@@ -1,0 +1,1 @@
+Các challenge SQL trong này chỉ thuộc level medium trở lên, không có easy
