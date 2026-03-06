@@ -1,6 +1,7 @@
-"""
+/*
 https://leetcode.com/problems/find-students-who-improved/
-"""
+*/
+
 -- NOT OPTIMIZE
 
 -- WITH temp_table AS (
