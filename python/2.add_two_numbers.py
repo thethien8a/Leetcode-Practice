@@ -14,7 +14,7 @@ class Solution:
         dummy = ListNode()
         cur = dummy
         carry = 0
-
+        
         while l1 or l2 or carry:
             val = carry
             if l1:
