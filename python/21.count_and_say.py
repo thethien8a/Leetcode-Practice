@@ -47,4 +47,3 @@ class Solution:
             temp+=(str(f) + char)
             curr = temp
         return curr
-                
