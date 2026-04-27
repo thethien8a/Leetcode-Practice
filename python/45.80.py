@@ -33,3 +33,22 @@ class Solution:
                 i = j
             
         return change_index
+    
+
+
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        n = len(nums)
+        start = 1
+
+        if(n <= 2):
+            return n
+        
+        
+        for i in range(2,n):
+            if(nums[start-1] != nums[i]):       # just changed the nums[i] to nums[i-1] (it will look back 2 elemetns)
+                start += 1
+                #count += 1
+                nums[start] = nums[i]
+
+        return start+1
